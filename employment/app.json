@@ -1,0 +1,50 @@
+{
+  "pages": [
+    "pages/welcome/welcome",
+    "pages/posts/posts",
+    "pages/index/index",
+    "pages/search/search",
+    "pages/mine/mine",
+    "pages/file/file",
+    "pages/profile/profile",
+    "pages/login/login",
+    "pages/fileshow/fileshow",
+    "pages/jobdetail/jobdetail",
+    "pages/register/register",
+    "pages/myjob/myjob",
+    "pages/editUserInfo/editUserInfo",
+    "pages/xuexin/xuexin",
+    "pages/message/message",
+    "pages/question/question",
+    "pages/answerShow/answerShow"
+  ],
+  "window": {
+    "navigationBarBackgroundColor": "#1E90FF",
+    "navigationBarTitleText": "大学生就业指导管理系统"
+  },
+  "tabBar": {
+    "color": "#bfbfbf",
+    "selectedColor": "#1296db",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "text": "首 页",
+        "iconPath": "/images/icon/home.png",
+        "selectedIconPath": "/images/icon/home-ed.png"
+      },
+      {
+        "pagePath": "pages/search/search",
+        "text": "搜 职 位",
+        "iconPath": "/images/icon/searchjob.png",
+        "selectedIconPath": "/images/icon/searchjob-ed.png"
+      },
+      {
+        "pagePath": "pages/mine/mine",
+        "text": "我 的",
+        "iconPath": "/images/icon/mine.png",
+        "selectedIconPath": "/images/icon/mine-ed.png"
+      }
+    ]
+  },
+  "sitemapLocation": "sitemap9.json"
+}

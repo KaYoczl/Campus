@@ -1,0 +1,55 @@
+{
+  "pages": [
+    "pages/login/login",
+    "pages/index/index",
+    "pages/jobs/jobs",
+    "pages/newjob/newjob",
+    "pages/mine/mine",
+    "pages/checkcom/checkcom",
+    "pages/checkfile/checkfile",
+    "pages/jobdetail/jobdetail",
+    "pages/newmessage/newmessage",
+    "pages/answer/answer",
+    "pages/questionList/questionList",
+    "pages/showmessage/showmessage",
+    "pages/updatemessage/updatemessage",
+    "pages/managemessage/managemessage",
+    "pages/delmessage/delmessage",
+    "pages/managejob/managejob",
+    "pages/showjob/showjob",
+    "pages/updatejob/updatejob",
+    "pages/deljob/deljob"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#00FF7F",
+    "navigationBarTitleText": "大学生就业指导管理系统",
+    "navigationBarTextStyle": "black"
+  },
+  "tabBar": {
+    "color": "#bfbfbf",
+    "selectedColor": "#1296db",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "text": "招 聘",
+        "iconPath": "/images/icon/home.png",
+        "selectedIconPath": "/images/icon/home-ed.png"
+      },
+      {
+        "pagePath": "pages/jobs/jobs",
+        "text": "职 位",
+        "iconPath": "/images/icon/searchjob.png",
+        "selectedIconPath": "/images/icon/searchjob-ed.png"
+      },
+      {
+        "pagePath": "pages/mine/mine",
+        "text": "我 的",
+        "iconPath": "/images/icon/mine.png",
+        "selectedIconPath": "/images/icon/mine-ed.png"
+      }
+    ]
+  },
+  "style": "v2",
+  "sitemapLocation": "sitemap.json"
+}

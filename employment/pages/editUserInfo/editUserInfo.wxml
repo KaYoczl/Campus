@@ -1,0 +1,41 @@
+<!--pages/editUserInfo/editUserInfo.wxml-->
+<!--pages/file/file.wxml-->
+<view class='bg'></view>
+<view style="text-align: center;margin-bottom:10%;">
+  <image class="avatar-img" src="../../images/img/KaYo.jpg" />
+</view>
+
+<view class='horizon firstrow'>
+  <!-- <image class='left icon' src='../../images/icon/name.png'></image> -->
+  <text class="left">真实姓名：</text>
+  <input class='input' bindinput='realNameInput' placeholder='请输入您的真实姓名'></input>
+</view>
+
+<view class='line'></view>
+
+<view class='horizon secondrow'>
+  <!-- <image class='left icon' src='../../images/icon/id.png'></image> -->
+  <text class="left">手机号码：</text>
+  <input class='input' bindinput='numberInput' placeholder='请输入您的手机号码'></input>
+</view>
+
+<view class='line'></view>
+
+<view class='horizon firstrow'>
+  <!-- <image class='left icon' src='../../images/icon/phone.png'></image> -->
+  <text class="left">学校：</text>
+  <input class='input' bindinput='schoolInput' placeholder='请输入您的学校'></input>
+</view>
+
+<view class='line'></view>
+
+<view class='horizon firstrow'>
+  <!-- <image class='left icon' src='../../images/icon/check.png'></image> -->
+  <text class="left">座右铭：</text>
+  <input class='input' bindinput='wordInput' placeholder='请输入您的座右铭'></input>
+</view>
+
+<view class='line'></view>
+
+<button class='sureBtn' type='primary' bindtap='sureTap'>保存</button>
+

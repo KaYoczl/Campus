@@ -1,0 +1,50 @@
+<!--pages/fileshow/fileshow.wxml-->
+<view class='bg'></view>
+
+<view class='horizon firstrow'>
+  <!-- <image class='left icon' src='../../images/icon/name.png'></image> -->
+  <text class="left">姓名：</text>
+  <text class="input">{{name}}</text>
+</view>
+
+<view class='line'></view>
+
+<view class='horizon secondrow'>
+  <!-- <image class='left icon' src='../../images/icon/id.png'></image> -->
+  <text class="left">邮箱：</text>
+  <text class="input">{{email}}</text>
+</view>
+
+<view class='line'></view>
+
+<view class='horizon firstrow'>
+  <!-- <image class='left icon' src='../../images/icon/phone.png'></image> -->
+  <text class="left">手机号：</text>
+  <text class="input">{{phone}}</text>
+</view>
+
+<view class='line'></view>
+
+<view class='horizon firstrow'>
+  <!-- <image class='left icon' src='../../images/icon/check.png'></image> -->
+  <text class="left">求职意向：</text>
+  <text class="input">{{flag}}</text>
+</view>
+
+<view class='line'></view>
+
+<view class='bg'></view>
+<view class="flex">
+  <text class="left distance">实习经历：</text>
+  <textarea bindinput="workInput" class="text" name="" id="" cols="30" rows="15">{{work}}</textarea>
+</view>
+<view class="flex">
+  <text class="left distance">项目经历：</text>
+  <textarea bindinput="itemInput" class="text" name="" id="" cols="30" rows="15">{{item}}</textarea>
+</view>
+<view class="flex">
+  <text class="left distance">个人技能：</text>
+  <textarea bindinput="goodInput" class="text" name="" id="" cols="30" rows="10">{{good}}</textarea>
+
+  <button class='sureBtn' type='primary' bindtap='toFile'>修改简历</button>
+</view>

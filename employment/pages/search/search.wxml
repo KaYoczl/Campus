@@ -1,0 +1,20 @@
+<!--pages/search/search.wxml-->
+<view class="container">
+  <l-search-bar bind:linblur="search" cancel-text="搜索" placeholder="请输入职位关键字" shape="circle"/>
+</view>
+
+<view bindtap="toDetail" class="relative" wx:for="{{jobs}}" wx:key="id" data-jobid="{{item.id}}">
+  <view class="title">
+    <text class="work">{{item.work}}</text>
+    <text class="money">{{item.money}}</text>
+  </view>
+  <view class="content">
+    <view class="img">
+      <image src="/images/img/lilisi.png"></image>
+    </view>
+    <view class="right">
+      <text class="text top">{{item.comname}}</text>
+      <text class="text bottom">{{item.scale}}</text>
+    </view>
+  </view>
+</view>

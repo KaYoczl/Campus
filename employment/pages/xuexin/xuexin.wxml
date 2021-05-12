@@ -1,0 +1,2 @@
+<!--pages/xuexin/xuexin.wxml-->
+<web-view src="https://my.chsi.com.cn/archive/wap/index.jsp"></web-view>

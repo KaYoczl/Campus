@@ -1,0 +1,26 @@
+<!--pages/delmessage/delmessage.wxml-->
+<view wx:if="{{tip}}" class="tip">
+  暂无最新资讯
+</view>
+<!-- 只能在wx:for的同一标签下使用bindtap才能在js中获取到item.id -->
+<view bindtap='delMessage' data-messageid="{{item.id}}" wx:for="{{messages}}" wx:key="id">
+  <view class='horizon'>
+    <text class="input left">{{item.title}}</text>
+  </view>
+  <view class="flex">
+    <textarea bindinput="workInput" class="text" name="" id="" cols="30" rows="15">{{item.content}}</textarea>
+  </view>
+
+  <view class="bottom">
+    <text class="input">{{item.post}}</text>
+  </view>
+
+  <view class="bottom small">
+    <text class="input">{{item.time}}</text>
+  </view>
+  <view class="container">
+    <view class='sureBtn no' type='primary'>删除资讯</view>
+  </view>
+  <view class='bg'></view>
+  <view class='bg'></view>
+</view>

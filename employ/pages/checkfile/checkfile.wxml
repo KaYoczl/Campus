@@ -1,0 +1,57 @@
+<!--pages/checkfile/checkfile.wxml-->
+<view class='bg'></view>
+<view wx:if="{{tip}}" class="tip">
+  暂时无人投递
+</view>
+<view wx:for="{{fileChecked}}" wx:key="id">
+  <view class='horizon firstrow'>
+    <!-- <image class='left icon' src='../../images/icon/name.png'></image> -->
+    <text class="left">姓名：</text>
+    <text class="input">{{item.name}}</text>
+  </view>
+
+  <view class='line'></view>
+
+  <view class='horizon secondrow'>
+    <!-- <image class='left icon' src='../../images/icon/id.png'></image> -->
+    <text class="left">邮箱：</text>
+    <text class="input">{{item.email}}</text>
+  </view>
+
+  <view class='line'></view>
+
+  <view class='horizon firstrow'>
+    <!-- <image class='left icon' src='../../images/icon/phone.png'></image> -->
+    <text class="left">手机号：</text>
+    <text class="input">{{item.phone}}</text>
+  </view>
+
+  <view class='line'></view>
+
+  <view class='horizon firstrow'>
+    <!-- <image class='left icon' src='../../images/icon/check.png'></image> -->
+    <text class="left">求职意向：</text>
+    <text class="input">{{item.flag}}</text>
+  </view>
+
+  <view class='line'></view>
+  <view class="flex">
+    <text class="left distance">实习经历：</text>
+    <textarea bindinput="workInput" class="text" name="" id="" cols="30" rows="15">{{item.work}}</textarea>
+  </view>
+  <view class="flex">
+    <text class="left distance">项目经历：</text>
+    <textarea bindinput="itemInput" class="text" name="" id="" cols="30" rows="15">{{item.item}}</textarea>
+  </view>
+  <view class="flex">
+    <text class="left distance">个人技能：</text>
+    <textarea bindinput="goodInput" class="text" name="" id="" cols="30" rows="10">{{item.good}}</textarea>
+
+    <view class="container">
+      <view class='sureBtn' type='primary' bindtap='toFile'>筛选通过</view>
+      <view class='sureBtn no' type='primary' bindtap='toFile'>暂不匹配</view>
+    </view>
+    <view class='bg'></view>
+    <view class='bg'></view>
+  </view>
+</view>

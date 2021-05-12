@@ -1,0 +1,7 @@
+<!--pages/managejob/managejob.wxml-->
+<view class="container">
+  <view class="nav">
+    <view bindtap="toShowJob" class="item bl">修改职位</view>
+    <view bindtap="toDelJob" class="item br">删除职位</view>
+  </view>
+</view>

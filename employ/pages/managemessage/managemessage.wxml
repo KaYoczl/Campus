@@ -1,0 +1,7 @@
+<!--pages/managemessage/managemessage.wxml-->
+<view class="container">
+  <view class="nav">
+    <view bindtap="toShowMessage" class="item bl">修改资讯</view>
+    <view bindtap="toDelMessage" class="item br">删除资讯</view>
+  </view>
+</view>

@@ -1,0 +1,50 @@
+<!--pages/file/file.wxml-->
+<view class='bg'></view>
+
+<view class='horizon firstrow'>
+  <!-- <image class='left icon' src='../../images/icon/name.png'></image> -->
+  <text class="left">姓名：</text>
+  <input class='input' bindinput='nameInput' placeholder='请输入您的姓名'></input>
+</view>
+
+<view class='line'></view>
+
+<view class='horizon secondrow'>
+  <!-- <image class='left icon' src='../../images/icon/id.png'></image> -->
+  <text class="left">邮箱：</text>
+  <input class='input' bindinput='emailInput' placeholder='请输入您的邮箱'></input>
+</view>
+
+<view class='line'></view>
+
+<view class='horizon firstrow'>
+  <!-- <image class='left icon' src='../../images/icon/phone.png'></image> -->
+  <text class="left">手机号：</text>
+  <input class='input' bindinput='phoneInput' placeholder='请输入您的手机号'></input>
+</view>
+
+<view class='line'></view>
+
+<view class='horizon firstrow'>
+  <!-- <image class='left icon' src='../../images/icon/check.png'></image> -->
+  <text class="left">求职意向：</text>
+  <input class='input' bindinput='flagInput' placeholder='请输入求职意向'></input>
+</view>
+
+<view class='line'></view>
+
+<view class='bg'></view>
+<view class="flex">
+  <text class="left distance">实习经历：</text>
+  <textarea maxlength='-1' bindinput="workInput" class="text" name="" id="" cols="30" rows="15"></textarea>
+</view>
+<view class="flex">
+  <text class="left distance">项目经历：</text>
+  <textarea maxlength='-1' bindinput="itemInput" class="text" name="" id="" cols="30" rows="15"></textarea>
+</view>
+<view class="flex">
+  <text class="left distance">个人技能：</text>
+  <textarea maxlength='-1' bindinput="goodInput" class="text" name="" id="" cols="30" rows="10"></textarea>
+
+  <button class='sureBtn' type='primary' bindtap='sureTap'>确定</button>
+</view>

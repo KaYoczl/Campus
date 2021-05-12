@@ -1,0 +1,11 @@
+<!--pages/question/question.wxml-->
+<view class='horizon firstrow'>
+  <!-- <image class='left icon' src='../../images/icon/name.png'></image> -->
+  <text class="left">标题：</text>
+  <input class='input' bindinput='titleInput'></input>
+</view>
+<view class="flex">
+  <text class="left distance">请输入您目前在就业方面的困惑：</text>
+  <textarea maxlength='-1' bindinput="questionInput" class="text" name="" id="" cols="30" rows="15"></textarea>
+</view>
+<button class='sureBtn' type='primary' bindtap='sureTap'>确定</button>

@@ -1,0 +1,29 @@
+/* pages/answer/answer.wxss */
+.left{
+  margin-left: 30rpx;
+}
+.top{
+  margin-top: 30rpx;
+}
+/* 确定按钮 */
+.sureBtn{
+  margin: 40rpx;
+}
+/* mine */
+.flex{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.text{
+  width: 692rpx;
+  height: 700rpx;
+  margin: auto;
+  border: 1px solid #edecf2;
+  border-radius: 10rpx;
+  box-sizing: border-box;
+  padding-left: 5rpx;
+}
+.distance{
+  margin: 18rpx 0 18rpx 30rpx;
+}

@@ -1,0 +1,25 @@
+<!--pages/questionList/questionList.wxml-->
+<view class='bg'></view>
+<view wx:if="{{tip}}" class="tip">
+  暂时无人投递
+</view>
+<view  bindtap="toAnswer" wx:for="{{questions}}" wx:key="id" data-questionid="{{item.id}}">
+  <view class='horizon firstrow'>
+    <text class="left distance">from：</text>
+    <text class="input">{{item.username}}</text>
+  </view>
+  <view class='horizon firstrow'>
+    <text class="left distance">主题：</text>
+    <text class="input">{{item.title}}</text>
+  </view>
+
+  <view class="flex">
+    <text class="left distance">问题：</text>
+    <textarea bindinput="goodInput" class="text" name="" id="" cols="30" rows="10">{{item.question}}</textarea>
+  </view>
+  <view class="container">
+    <view class='sureBtn' type='primary'>回答他（她）</view>
+  </view>
+  <view class='bg'></view>
+  <view class='bg'></view>
+</view>

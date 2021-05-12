@@ -1,0 +1,107 @@
+{
+  "setting": {},
+  "condition": {
+    "plugin": {
+      "list": []
+    },
+    "game": {
+      "list": []
+    },
+    "gamePlugin": {
+      "list": []
+    },
+    "miniprogram": {
+      "list": [
+        {
+          "name": "pages/index/index",
+          "pathName": "pages/index/index",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "pages/newjob/newjob",
+          "pathName": "pages/newjob/newjob",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "pages/checkcom/checkcom",
+          "pathName": "pages/checkcom/checkcom",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "pages/checkfile/checkfile",
+          "pathName": "pages/checkfile/checkfile",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "pages/login/login",
+          "pathName": "pages/login/login",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "pages/jobs/jobs",
+          "pathName": "pages/jobs/jobs",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "pages/newmessage/newmessage",
+          "pathName": "pages/newmessage/newmessage",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "pages/questionList/questionList",
+          "pathName": "pages/questionList/questionList",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "pages/answer/answer",
+          "pathName": "pages/answer/answer",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "pages/showmessage/showmessage",
+          "pathName": "pages/showmessage/showmessage",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "pages/updatemessage/updatemessage",
+          "pathName": "pages/updatemessage/updatemessage",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "pages/managemessage/managemessage",
+          "pathName": "pages/managemessage/managemessage",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "pages/delmessage/delmessage",
+          "pathName": "pages/delmessage/delmessage",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "pages/showjob/showjob",
+          "pathName": "pages/showjob/showjob",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "pages/deljob/deljob",
+          "pathName": "pages/deljob/deljob",
+          "scene": null
+        }
+      ]
+    }
+  }
+}

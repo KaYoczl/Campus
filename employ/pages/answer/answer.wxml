@@ -1,0 +1,6 @@
+<!--pages/answer/answer.wxml-->
+<view class="flex">
+  <text class="left distance">建议：</text>
+  <textarea maxlength='-1' bindinput="answerInput" class="text" name="" id="" cols="30" rows="15"></textarea>
+</view>
+<button class='sureBtn' type='primary' bindtap='sureTap'>回答</button>

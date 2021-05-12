@@ -1,0 +1,11 @@
+<!--pages/welcome/welcome.wxml-->
+
+<view class="container">
+  <!-- <image class="avatar" src="/image/avatar/黑客.png"></image> -->
+  <l-avatar class="l-avatar" placement="bottom" shape="square" open-data="{{['userAvatarUrl','userNickName']}}" size="200" />
+  <!-- <text class="motto">Hello,KaYo</text> -->
+  <!-- <button>开启小程序之旅</button> -->
+  <view bind:tap="onTap" class="journey-container">
+    <text class="journey">开启小程序之旅</text>
+  </view>
+</view>

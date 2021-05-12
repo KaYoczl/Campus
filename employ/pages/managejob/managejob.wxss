@@ -1,0 +1,58 @@
+/* pages/managejob/managejob.wxss */
+.container{
+  width: 100%;
+  height: 100%;
+}
+.nav{
+  width: 80%;
+  height: 300rpx;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  border: 1rpx solid blue;
+  border-radius: 30rpx;
+}
+.item{
+  width: 250rpx;
+  height: 250rpx;
+  text-align: center;
+  line-height: 250rpx;
+  border-radius: 30rpx;
+  background-color: #98FB98;
+  box-shadow: 10rpx 10rpx 10rpx grey;
+  color: #FF00FF;
+  font-weight: bold;
+  font-size: 17px;
+}
+.tl{
+  position: absolute;
+  top: 20rpx;
+  left: 30rpx;
+}
+.tr{
+  position: absolute;
+  top: 20rpx;
+  right: 30rpx;
+}
+.ml{
+  position: absolute;
+  bottom: 261rpx;
+  left: 30rpx;
+}
+.mr{
+  position: absolute;
+  bottom: 261rpx;
+  right: 30rpx;
+}
+/* 下面两个是主要布局 */
+.bl{
+  position: absolute;
+  bottom: 25rpx;
+  left: 30rpx;
+}
+.br{
+  position: absolute;
+  bottom: 25rpx;
+  right: 30rpx;
+}

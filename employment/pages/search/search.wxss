@@ -1,0 +1,69 @@
+/* pages/search/search.wxss */
+page{
+  background-color: #E6E6FA;
+}
+.container{
+  width: 95%;
+  height: 100rpx;
+  top: 30rpx;
+  margin-left: 18rpx;
+}
+.relative{
+  width: 96%;
+  height: 250rpx;
+  left: 50%;
+  transform: translate(-50%,0);
+  border: 1rpx solid black;
+  border-radius: 30rpx;
+  position: relative;
+  background-color: #fff;
+  margin-bottom: 20rpx;
+}
+.title{
+  display: flex;
+  justify-content: space-between;
+  margin-top: 15rpx;
+  font-size: 35rpx;
+}
+.work{
+  margin-left: 20rpx;
+}
+.money{
+  color: #FF0000;
+  margin-right: 20rpx;
+}
+.content{
+  display: flex;
+  justify-content: center;
+}
+.img{
+  width: 150rpx;
+  height: 150rpx;
+  position: absolute;
+  left: 10rpx;
+  bottom: 25rpx;
+}
+image{
+  width: 100%;
+  height: 100%;
+}
+.right{
+  margin-top: 35rpx;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  font-size: 35rpx;
+  margin-left: -50rpx;
+  position: absolute;
+  top: 25%;
+  left: 225rpx;
+}
+.text{
+  width: 100%;
+}
+.top{
+  margin-bottom: 25rpx;
+}
+.bottom::after{
+  content: '        |        本科及以上';
+}

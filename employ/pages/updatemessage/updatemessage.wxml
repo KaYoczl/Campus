@@ -1,0 +1,19 @@
+<!--pages/updatemessage/updatemessage.wxml-->
+<view class='horizon firstrow'>
+  <!-- <image class='left icon' src='../../images/icon/name.png'></image> -->
+  <text class="left">标题：</text>
+  <input class='input' bindinput='titleInput' placeholder='请输入资讯标题'></input>
+</view>
+<view class="flex">
+  <text class="left distance">内容：</text>
+  <textarea bindinput="contentInput" class="text" name="" id="" cols="30" rows="15"></textarea>
+</view>
+<view class='horizon firstrow'>
+  <text class="left">资讯来源：</text>
+  <input class='input' bindinput='postInput' placeholder='请输入资讯来源'></input>
+</view>
+<view class='horizon firstrow'>
+  <text class="left">日期：</text>
+  <input class='input' bindinput='timeInput' placeholder='请输入日期'></input>
+</view>
+<button class='sureBtn' type='primary' bindtap='sureTap'>确定</button>

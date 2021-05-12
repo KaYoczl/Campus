@@ -1,0 +1,10 @@
+<!--pages/answerShow/answerShow.wxml-->
+<view class='bg'></view>
+<view class="flex">
+  <text class="left distance">优质解答：</text>
+  <textarea bindinput="goodInput" class="text" name="" id="" cols="30" rows="10">{{answer}}</textarea>
+</view>
+<view bindtap="toMine" class="container">
+  <view class='sureBtn' type='primary'>我顿悟了</view>
+</view>
+<view class='bg'></view>

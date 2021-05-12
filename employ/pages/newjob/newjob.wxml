@@ -1,0 +1,50 @@
+<!--pages/newjob/newjob.wxml-->
+<view class='bg'></view>
+
+<view class='horizon firstrow'>
+  <!-- <image class='left icon' src='../../images/icon/name.png'></image> -->
+  <text class="left">公司名称：</text>
+  <input class='input' bindinput='comnameInput' placeholder='请输入公司名称'></input>
+</view>
+
+<view class='line'></view>
+
+<view class='horizon secondrow'>
+  <!-- <image class='left icon' src='../../images/icon/id.png'></image> -->
+  <text class="left">职位：</text>
+  <input class='input' bindinput='workInput' placeholder='请输入该公司要招的岗位'></input>
+</view>
+
+<view class='line'></view>
+
+<view class='horizon firstrow'>
+  <!-- <image class='left icon' src='../../images/icon/phone.png'></image> -->
+  <text class="left">规模：</text>
+  <input class='input' bindinput='scaleInput' placeholder='请输入该公司的规模'></input>
+</view>
+
+<view class='line'></view>
+
+<view class='horizon firstrow'>
+  <!-- <image class='left icon' src='../../images/icon/check.png'></image> -->
+  <text class="left">薪资：</text>
+  <input class='input' bindinput='moneyInput' placeholder='请输入能给的薪资'></input>
+</view>
+
+<view class='line'></view>
+
+<view class='bg'></view>
+<view class="flex">
+  <text class="left distance">岗位职责：</text>
+  <textarea maxlength='-1' bindinput="dutyInput" class="text" name="" id="" cols="30" rows="15"></textarea>
+</view>
+<view class="flex">
+  <text class="left distance">任职要求：</text>
+  <textarea maxlength='-1' bindinput="demandInput" class="text" name="" id="" cols="30" rows="15"></textarea>
+</view>
+<view class="flex">
+  <text class="left distance">应聘方式：</text>
+  <textarea maxlength='-1' bindinput="wayInput" class="text" name="" id="" cols="30" rows="10"></textarea>
+
+  <button class='sureBtn' type='primary' bindtap='sureTap'>确定</button>
+</view>

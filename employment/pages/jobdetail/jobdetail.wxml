@@ -1,0 +1,50 @@
+<!--pages/fileshow/fileshow.wxml-->
+<view class='bg'></view>
+
+<view class='horizon firstrow'>
+  <!-- <image class='left icon' src='../../images/icon/name.png'></image> -->
+  <text class="left">企业：</text>
+  <text class="input">{{comname}}</text>
+</view>
+
+<view class='line'></view>
+
+<view class='horizon secondrow'>
+  <!-- <image class='left icon' src='../../images/icon/id.png'></image> -->
+  <text class="left">职位：</text>
+  <text class="input">{{work}}</text>
+</view>
+
+<view class='line'></view>
+
+<view class='horizon firstrow'>
+  <!-- <image class='left icon' src='../../images/icon/phone.png'></image> -->
+  <text class="left">企业规模：</text>
+  <text class="input">{{scale}}</text>
+</view>
+
+<view class='line'></view>
+
+<view class='horizon firstrow'>
+  <!-- <image class='left icon' src='../../images/icon/check.png'></image> -->
+  <text class="left">薪资：</text>
+  <text class="input">{{money}}</text>
+</view>
+
+<view class='line'></view>
+
+<view class='bg'></view>
+<view class="flex">
+  <text class="left distance">工作内容：</text>
+  <textarea bindinput="workInput" class="text" name="" id="" cols="30" rows="15">{{duty}}</textarea>
+</view>
+<view class="flex">
+  <text class="left distance">任职要求：</text>
+  <textarea bindinput="itemInput" class="text" name="" id="" cols="30" rows="15">{{demand}}</textarea>
+</view>
+<view class="flex">
+  <text class="left distance">投递方式：</text>
+  <textarea bindinput="goodInput" class="text" name="" id="" cols="30" rows="10">{{way}}</textarea>
+
+  <button class='sureBtn' type='primary' bindtap='toSearch'>投递简历</button>
+</view>

@@ -1,0 +1,11 @@
+<!--index.wxml-->
+<view class="container">
+  <view class="nav">
+    <view bindtap="toNewMessage" class="item tl">发布就业资讯</view>
+    <view bindtap="toManageMessage" class="item tr">管理就业资讯</view>
+    <view bindtap="toNewjob" class="item ml">发布职位</view>
+    <view bindtap="toManageJob" class="item mr">管理职位</view>
+    <view bindtap="toCheckcom" class="item bl">查看简历</view>
+    <view bindtap="toQuestionList" class="item br">解答问题</view>
+  </view>
+</view>

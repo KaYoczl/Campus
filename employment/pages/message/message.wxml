@@ -1,0 +1,26 @@
+<!--pages/message/message.wxml-->
+<view class="container">
+  <l-search-bar bind:linblur="search" cancel-text="搜索" placeholder="请输入职位关键字" shape="circle"/>
+</view>
+<view wx:if="{{tip}}" class="tip">
+  暂无最新资讯
+</view>
+<view wx:for="{{messages}}" wx:key="id">
+  <view class='horizon'>
+    <text class="input left">{{item.title}}</text>
+  </view>
+  <view class="flex">
+    <textarea bindinput="workInput" class="text" name="" id="" cols="30" rows="15">{{item.content}}</textarea>
+  </view>
+
+  <view class="bottom">
+    <text class="input">{{item.post}}</text>
+  </view>
+
+  <view class="bottom small">
+    <text class="input">{{item.time}}</text>
+  </view>
+
+  <view class='bg'></view>
+  <view class='bg'></view>
+</view>

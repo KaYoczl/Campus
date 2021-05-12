@@ -1,0 +1,34 @@
+/* pages/myjob/myjob.wxss */
+page{
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  background-color: #F0F8FF;
+}
+.container{
+  width: 720rpx;
+  height: 200rpx;
+  margin-top: 20rpx;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  border: 1rpx solid blue;
+  background-color: #fff;
+  border-radius: 20px;
+  overflow: hidden;
+  font-size: 42rpx;
+  box-shadow: 10rpx 10rpx 10rpx grey;
+}
+.top{
+  width: 98%;
+  height: 98rpx;
+  line-height: 98rpx;
+  text-align: center;
+  border-bottom: 2px solid #F5F5F5;
+}
+.bottom{
+  width: 98%;
+  height: 98rpx;
+  line-height: 98rpx;
+  text-align: center;
+}

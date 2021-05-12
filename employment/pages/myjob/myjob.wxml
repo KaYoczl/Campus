@@ -1,0 +1,6 @@
+<!--pages/myjob/myjob.wxml-->
+<view bindtap="toJobDetail" class="container" wx:for="{{myJobs}}" wx:key='id' data-jobid="{{item.id}}">
+  <view class="top">{{item.comname}}</view>
+  <view class="bottom">{{item.work}}</view>
+</view>
+

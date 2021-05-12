@@ -1,0 +1,101 @@
+{
+  "setting": {},
+  "condition": {
+    "plugin": {
+      "list": []
+    },
+    "game": {
+      "list": []
+    },
+    "gamePlugin": {
+      "list": []
+    },
+    "miniprogram": {
+      "list": [
+        {
+          "name": "pages/posts/posts",
+          "pathName": "pages/posts/posts",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "pages/index/index",
+          "pathName": "pages/index/index",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "pages/search/search",
+          "pathName": "pages/search/search",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "pages/mine/mine",
+          "pathName": "pages/mine/mine",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "pages/file/file",
+          "pathName": "pages/file/file",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "pages/profile/profile",
+          "pathName": "pages/profile/profile",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "pages/login/login",
+          "pathName": "pages/login/login",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "pages/fileshow/fileshow",
+          "pathName": "pages/fileshow/fileshow",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "pages/jobdetail/jobdetail",
+          "pathName": "pages/jobdetail/jobdetail",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "pages/register/register",
+          "pathName": "pages/register/register",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "pages/myjob/myjob",
+          "pathName": "pages/myjob/myjob",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "pages/editUserInfo/editUserInfo",
+          "pathName": "pages/editUserInfo/editUserInfo",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "pages/message/message",
+          "pathName": "pages/message/message",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "pages/question/question",
+          "pathName": "pages/question/question",
+          "scene": null
+        }
+      ]
+    }
+  }
+}

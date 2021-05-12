@@ -1,0 +1,38 @@
+/* pages/mine/mine.wxss */
+.head{
+  width: 95%;
+  height: 500rpx;
+  position: relative;
+  top: 20rpx;
+  left: 50%;
+  transform: translate(-50%,0);
+}
+.head image{
+  width: 100%;
+  height: 100%;
+}
+.foot{
+  overflow: hidden;
+  margin-top: 40rpx;
+}
+.div{
+  width: 350;
+  height: 88rpx;
+  line-height: 88rpx;
+  position: relative;
+  margin-left: 18.2rpx;
+  font-size: 38rpx;
+  color: 	#696969;
+  border: 1px solid #F5F5F5;
+  padding-left: 24rpx;
+}
+.div image{
+  width: 40rpx;
+  height: 40rpx;
+  position: absolute;
+  top: 50%;
+  margin-top: -20rpx;
+}
+.div text{
+  margin-left: 64rpx;
+}

@@ -1,0 +1,6 @@
+<!--pages/checkcom/checkcom.wxml-->
+<view bindtap="toCheckfile" class="container" wx:for="{{jobs}}" wx:key='id' data-jobid="{{item.id}}">
+  <view class="top">{{item.comname}}</view>
+  <view class="bottom">{{item.work}}</view>
+</view>
+

@@ -1,0 +1,11 @@
+<!--pages/register/register.wxml-->
+<view class="login-container">
+  <view class="title">微信小程序App</view>
+  <view class="login-box">
+    <label>用户名</label>
+    <input bindinput="nameIn" placeholder="请输入用户名"/>
+    <label>密码</label>
+    <input bindinput="passwordIn" placeholder="请输入密码"/>
+    <button class="login-btn" bindtap="register">立即注册</button>
+  </view>
+</view>

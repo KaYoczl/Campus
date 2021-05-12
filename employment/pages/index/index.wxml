@@ -1,0 +1,36 @@
+<!--pages/index/index.wxml-->
+<view>
+  <view class="avatar">
+    <l-avatar class="l-avatar" placement="bottom" open-data="{{['userAvatarUrl']}}" size="150" />
+  </view>
+  <view>
+    <image class="main-img" src="/images/img/main-img.jpg"></image>
+  </view>
+  <text class="main-text">办事大厅</text>
+  <view class="body">
+    <view class="flex top-left">
+      <image class="post-like-image" src="/images/icon/phone.png"></image>
+      <text>就业咨询电话</text>
+    </view>
+    <view bindtap="toQuestion" class="flex top-center">
+      <image class="post-like-image" src="/images/icon/cons.png"></image>
+      <text>就业指导</text>
+    </view>
+    <view bindtap="toMessage" class="flex top-right">
+      <image class="post-like-image" src="/images/icon/info.png"></image>
+      <text>就业资讯</text>
+    </view>
+    <view bindtap="toSearch" class="flex bottom-left">
+      <image class="post-like-image" src="/images/icon/job.png"></image>
+      <text>应届生求职</text>
+    </view>
+    <view bindtap="toXueXin" class="flex bottom-center">
+      <image class="post-like-image" src="/images/icon/fileno.png"></image>
+      <text>档案查询</text>
+    </view>
+    <view bindtap="toFileShow" class="flex bottom-right">
+      <image class="post-like-image" src="/images/icon/file.png"></image>
+      <text>我的简历</text>
+    </view>
+  </view>
+</view>
